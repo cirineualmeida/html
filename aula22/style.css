@@ -1,0 +1,54 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+h1 {
+    text-align: center;
+}
+header {
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.398);
+}
+nav {
+    background-color: rgb(171, 163, 154);
+    padding: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.398);
+}
+nav > a {
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover {
+    background-color: rgba(64, 62, 62, 0.283);
+    text-decoration: underline;
+    color: black;
+}
+main {
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.424);
+}
+article {
+    background-color: azure;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.451);
+}
+article > aside {
+    background-color: rgb(187, 194, 194);
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    margin: 0px;
+}
+footer > p {
+    margin: 0px;
+}
